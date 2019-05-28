@@ -1,0 +1,1 @@
+java -jar -Dwebdriver.ie.driver=IEDriverServer.exe -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.gecko.driver=geckodriver.exe selenium-server-standalone-3.141.59.jar -role node -hub http://127.0.0.1:4444/grid/register/

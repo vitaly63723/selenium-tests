@@ -1,0 +1,121 @@
+[0308/022949.939:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0308/022949.939:ERROR:exception_snapshot_win.cc(88)] thread ID 688 not found in process
+[0308/022949.939:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0309/023419.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0309/023419.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0309/023419.770:ERROR:exception_snapshot_win.cc(88)] thread ID 1556 not found in process
+[0309/023419.770:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0412/133340.837:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0412/133340.837:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0412/133340.837:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef06ef1e8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0412/133340.837:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0412/133340.837:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0412/133340.837:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0413/112051.496:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0413/112051.750:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.750:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.750:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.750:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.750:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0413/112051.931:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.932:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.932:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.933:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.933:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.934:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.935:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0413/112051.935:ERROR:exception_snapshot_win.cc(88)] thread ID 6776 not found in process
+[0413/112051.935:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0413/112051.936:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0414/010118.952:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0414/010119.011:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0414/010119.012:ERROR:process_info.cc(545)] ReadProcessData failed
+[0414/010119.012:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef06ef1e8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0414/010119.012:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0414/010119.012:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0501/030203.442:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0501/030203.798:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0501/030203.798:ERROR:process_info.cc(545)] ReadProcessData failed
+[0501/030203.798:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef0213218 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0501/030203.799:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0501/030203.799:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0508/033029.098:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0531/005416.279:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0531/005416.357:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0531/005416.357:ERROR:process_info.cc(545)] ReadProcessData failed
+[0531/005416.357:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fee7673228 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0531/005416.357:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0918/031814.377:ERROR:process_info.cc(350)] VirtualQueryEx: Access is denied. (0x5)
+[0918/031814.408:ERROR:process_info.cc(571)] ReadMemoryInfo failed
+[0918/031814.408:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef10b27e8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0918/031814.423:WARNING:process_snapshot_win.cc(72)] ReadMemory ExceptionInformation failed
+[0918/031814.423:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0918/031814.423:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1221/120948.524:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1221/120948.638:ERROR:exception_snapshot_win.cc(88)] thread ID 8440 not found in process
+[1223/234837.519:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[1225/001448.921:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1225/001449.061:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1225/001449.061:ERROR:process_info.cc(545)] ReadProcessData failed
+[1225/001449.061:ERROR:process_reader_win.cc(108)] process 1116 not found
+[1225/001449.061:ERROR:exception_snapshot_win.cc(88)] thread ID 0 not found in process
+[1225/034642.409:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1225/034642.487:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[1225/034642.487:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef00364d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1225/034642.487:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[1225/034642.487:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0103/010130.845:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0103/010130.923:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0103/010130.939:ERROR:process_info.cc(545)] ReadProcessData failed
+[0103/010130.939:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feefbc64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0103/010130.939:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0103/043414.392:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0103/043415.400:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::LDR_DATA_TABLE_ENTRY<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0103/043415.406:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0103/043415.406:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0103/043415.407:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feefc264d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0103/043415.407:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0103/132447.622:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0103/132447.640:ERROR:exception_snapshot_win.cc(88)] thread ID 30620 not found in process
+[0103/133004.957:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0103/133004.957:ERROR:exception_snapshot_win.cc(88)] thread ID 26216 not found in process
+[0103/133004.957:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0104/034646.634:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0104/034646.759:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0104/034646.759:ERROR:process_info.cc(545)] ReadProcessData failed
+[0104/034646.759:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feed1c64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0104/034646.759:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0106/002352.223:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0106/002352.316:ERROR:exception_snapshot_win.cc(88)] thread ID 23740 not found in process
+[0107/030625.608:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0107/030625.858:ERROR:exception_snapshot_win.cc(88)] thread ID 24092 not found in process
+[0107/101738.425:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0107/101738.538:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0107/101738.539:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feed2464d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0107/101738.539:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0107/101738.539:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0109/124700.556:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0109/124700.587:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0109/124700.587:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feefbc64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0109/124700.587:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0109/124700.587:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0109/125403.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0109/125403.938:ERROR:exception_snapshot_win.cc(88)] thread ID 18784 not found in process
+[0109/164315.056:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0109/164315.259:ERROR:exception_snapshot_win.cc(88)] thread ID 18596 not found in process
+[0109/164315.290:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0111/234959.644:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0112/001110.266:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/001110.436:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/001110.436:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/001110.436:ERROR:exception_snapshot_win.cc(88)] thread ID 5460 not found in process
+[0112/001110.436:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0112/043823.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0112/043823.135:ERROR:exception_snapshot_win.cc(88)] thread ID 7672 not found in process
+[0211/224308.659:ERROR:file_io_win.cc(161)] CreateFile C:\Users\lup\AppData\Local\Temp\scoped_dir11840_11538\Crashpad\settings.dat: Das System kann die angegebene Datei nicht finden. (0x2)
