@@ -1,0 +1,236 @@
+2019-05-21 14:55:08,745 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:55:08,755 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Keepalive Thread started.
+2019-05-21 14:55:08,756 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - Execution Thread started.
+2019-05-21 14:55:08,820 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:55:19,111 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:55:29,379 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:55:38,659 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:55:39,682 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:55:49,961 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:56:00,244 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:56:08,551 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:56:10,515 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:56:20,800 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:56:31,092 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:56:38,623 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:56:48,481 [5] ERROR aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - Exception during getting of task.
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: ????????? ?? ????? ????-?????????? ????????? ????????????? ??????????? 10.20.1.24:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at aqua.ProcessEngine.WebServiceProxy.aquaAgentWebservice.GetPowerShellTask(String _agentCode)
+   at aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker.ExecutionThread()
+2019-05-21 14:56:50,561 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:00,857 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:08,598 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:57:11,190 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:21,455 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:31,695 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:38,573 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:57:41,970 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:57:52,219 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:02,453 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:08,566 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:58:13,031 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:23,769 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:34,030 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:38,614 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:58:44,530 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:58:54,802 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:05,078 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:08,528 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:59:15,348 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:25,705 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:35,963 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:38,509 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 14:59:46,375 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 14:59:56,753 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:07,030 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:08,494 [11] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:00:17,301 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:27,603 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:38,267 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:38,484 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:00:48,804 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:00:59,259 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:01:08,474 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:01:09,558 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:01:19,827 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:01:30,112 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:01:38,456 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:01:40,382 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:01:50,663 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:00,951 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:08,442 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:02:11,218 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:21,493 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:31,765 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:38,431 [12] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:02:42,021 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:02:52,310 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:02,566 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:08,416 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:03:12,906 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:23,282 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:33,535 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:38,414 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:03:43,812 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:03:54,068 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:04,626 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:08,390 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:04:14,888 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:25,147 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:35,436 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:38,385 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:04:45,685 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:04:55,964 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:06,234 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:08,386 [13] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:05:16,506 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:26,776 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:37,036 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:38,386 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:05:47,313 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:05:57,657 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:06:07,925 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:06:08,387 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:06:09,336 [15] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.AgentLogicController - Shutting down worker threads.
+2019-05-21 15:06:09,337 [15] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Stopping keep alives.
+2019-05-21 15:06:09,997 [15] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - Execution Thread stopped.
+2019-05-21 15:10:58,138 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:10:58,140 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Keepalive Thread started.
+2019-05-21 15:10:58,140 [1] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - Execution Thread started.
+2019-05-21 15:10:58,174 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:08,436 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:18,698 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:28,106 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:11:29,404 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:39,672 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:50,158 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:11:58,062 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:12:00,600 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:11,413 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:21,976 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:28,015 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:12:32,687 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:42,950 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:53,206 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:12:57,971 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:13:03,496 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:13,750 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:24,014 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:27,927 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:13:34,558 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:44,835 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:55,222 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:13:57,883 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:14:05,484 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:15,738 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:25,984 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:27,838 [11] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:14:36,237 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:46,489 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:56,785 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:14:57,792 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:15:07,044 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:15:17,320 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:15:27,605 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:15:27,776 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:15:37,861 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:15:48,152 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:15:57,781 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:15:58,438 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:08,726 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:19,008 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:27,783 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:16:29,275 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:39,563 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:50,048 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:16:57,783 [7] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:17:00,325 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:10,589 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:20,872 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:27,781 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:17:31,169 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:41,455 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:51,786 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:17:57,902 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:18:02,104 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:12,700 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:22,990 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:27,784 [12] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:18:33,251 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:44,207 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:54,520 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:18:57,790 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:19:04,802 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:15,082 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:25,368 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:27,792 [10] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:19:35,673 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:45,983 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:56,268 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:19:57,802 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:20:06,607 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:20:18,748 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:20:27,797 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:20:29,045 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:20:39,383 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:20:49,674 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:20:57,789 [13] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:20:59,968 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:10,244 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:20,511 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:27,791 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:21:30,782 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:41,061 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:51,338 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:21:57,791 [14] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:22:03,426 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:14,600 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:24,877 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:27,796 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:22:35,134 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:45,428 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:55,786 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:22:57,791 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:23:06,064 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:16,323 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:26,595 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:27,794 [15] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:23:36,861 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:47,140 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:57,409 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:23:57,792 [14] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:24:07,690 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:24:17,943 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:24:27,795 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:24:28,295 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:24:38,584 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:24:48,891 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:24:57,798 [8] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:24:59,313 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:09,584 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:19,863 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:27,796 [6] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:25:30,770 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:45,547 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:57,730 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:25:57,797 [16] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:26:09,973 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:26:21,735 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:26:27,795 [9] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:26:36,052 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:26:47,357 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:26:57,796 [14] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:26:58,687 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:27:08,973 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:27:19,236 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:27:27,808 [15] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Sent keepalive with status:Idle
+2019-05-21 15:27:29,515 [5] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - No Task available.
+2019-05-21 15:27:31,316 [18] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.AgentLogicController - Shutting down worker threads.
+2019-05-21 15:27:31,316 [18] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellKeepaliveWorker - Stopping keep alives.
+2019-05-21 15:27:31,618 [18] INFO  aqua.ProcessEngine.PowerShell.AgentLogic.PowerShellExecutionWorker - Execution Thread stopped.
