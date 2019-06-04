@@ -8,7 +8,7 @@
 	"gitLocalPath": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\",
 	"binDebugLocation": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\bin\\Debug\\",
 	"projectFilePath" : "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\selenium-tests.sln",
-	"testsDll": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\bin\\Debug\\selenium-tests.dll",
+	"testsDll": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\bin\\Debug\\selenium-tests\\selenium-tests.dll",
 	"msbuild": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\MSBuild.exe",
 	"nunit": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\NUnit-3.2.1\\bin\\nunit3-console.exe",
 	"outputdir": "C:\\Users\\ZagrebVi\\Desktop\\aquaPowerShellAgent\\temp\\GITCheckout\\output\\",
