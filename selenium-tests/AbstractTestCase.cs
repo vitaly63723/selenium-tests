@@ -7,6 +7,8 @@ using System.IO;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using Newtonsoft.Json.Linq;
+
 
 namespace selenium_tests
 {
@@ -14,21 +16,49 @@ namespace selenium_tests
     public abstract class AbstractTestCase
     {
         protected IWebDriver wd;
-        public static string StartFolder = (System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase) + "\\").Substring(6);
-        public static string logFilePath = StartFolder.Replace("bin\\Debug\\","output\\") + "test.log";
-        
+        private static string StartFolder = (System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase) + "\\").Substring(6);
+
+        private const string configName = "aqua-config-powershell.json";
+
+        private string logFileName = "selenium-test-log.txt";
+        private string aquaRpojectConfigFile = "";
+        string outputdir = "";
+        private string logFilePath = "";
+
+
+
         [SetUp]
         public void TestSetup()
         {
+            aquaRpojectConfigFile = StartFolder + configName;
+
+
+            if (File.Exists(aquaRpojectConfigFile))
+            {
+
+                outputdir = Get_ps_parameter("outputdir");
+                logFilePath = outputdir + logFileName;
+
+
+
+
+            }
+            else
+            {
+                throw new Exception("please check powershell git checkout setup script: no config data:" + aquaRpojectConfigFile);
+            }
+
+
+
             wd = Create_Driver();
 
 
         }
 
 
-        public IWebDriver  Create_Driver()
+        public IWebDriver Create_Driver()
         {
-                        int timeout = 10;
+            int timeout = 10;
 
             var Chrome_options = new ChromeOptions();
             Chrome_options.AddArgument("no-sandbox");
@@ -82,7 +112,30 @@ namespace selenium_tests
             }
         }
 
-        
+        //public static string get_path(string user, string attr)
+        //{
+
+        //    string myJsonString = File.ReadAllText(StartFolder+"aqua-ps-config.json");
+        //    var jo = JObject.Parse(myJsonString);
+        //    var attrVal = jo[user][attr].ToString();
+        //    return attrVal;
+        //}
+
+
+        public string Get_ps_parameter(string name)
+        {
+
+            string myJsonString = File.ReadAllText(aquaRpojectConfigFile);
+
+            //ed string myJso
+            var jo = JObject.Parse(myJsonString);
+            var attrVal = jo[name].ToString();
+
+
+            if (File.Exists(attrVal)) Console.WriteLine("");
+            return attrVal;
+        }
+
 
     }
 
