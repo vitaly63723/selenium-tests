@@ -17,6 +17,11 @@ namespace selenium_tests.tests
         [Test]
         public void Start_test1()
         {
+            string outputdir = TestContext.Parameters["outputdir"];
+            TestContext.WriteLine("excelFilePath:"+ outputdir);
+            logFilePath = outputdir;
+
+
             writeline_log("navigate sataturn.de");
             wd.Navigate().GoToUrl("https://www.saturn.de");
             writeline_log("click FAQ");

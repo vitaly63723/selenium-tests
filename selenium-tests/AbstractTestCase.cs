@@ -23,7 +23,7 @@ namespace selenium_tests
         private string logFileName = "selenium-test-log.txt";
         private string aquaRpojectConfigFile = "";
         string outputdir = "";
-        private string logFilePath = "";
+        public string logFilePath = "";
 
 
 
@@ -111,6 +111,8 @@ namespace selenium_tests
                 sw.WriteLine(txt);
             }
         }
+
+
 
         //public static string get_path(string user, string attr)
         //{
