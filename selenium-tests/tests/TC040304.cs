@@ -18,9 +18,7 @@ namespace selenium_tests.tests
         public void Start_test1()
         {
 
-            logFileFolder = TestContext.Parameters["outputdir"];
         
-
 
 
             writeline_log("navigate sataturn.de");

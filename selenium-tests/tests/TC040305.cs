@@ -17,7 +17,6 @@ namespace selenium_tests.tests
         [Test]
         public void Start_test2()
         {
-            logFileFolder = TestContext.Parameters["outputdir"];
 
             writeline_log("navigate sataturn.de");
             wd.Navigate().GoToUrl("https://www.saturn.de");

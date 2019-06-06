@@ -20,10 +20,10 @@ namespace selenium_tests
 
         private const string configName = "aqua-config-powershell.json";
 
-        public string logFileFolder = "";
+        
         public string logFileName = "selenium-test-log.txt";
         private string aquaRpojectConfigFile = "";
-        string outputdir = "";
+        
         public string logFilePath = "";
 
 
@@ -35,10 +35,8 @@ namespace selenium_tests
 
 
             if (File.Exists(aquaRpojectConfigFile))
-            {
-
-              //  outputdir = Get_ps_parameter("outputdir");
-               // logFilePath = outputdir + logFileName;
+            {              
+              logFilePath = Get_ps_parameter("outputdir") + logFileName;
 
 
 
@@ -107,7 +105,7 @@ namespace selenium_tests
 
         public void writeline_log(string txt)
         {
-            logFilePath = logFileFolder + logFileName;
+     
             using (StreamWriter sw = File.AppendText(logFilePath))
             {
                 sw.WriteLine(txt);
